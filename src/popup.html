@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 320px;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    
+    h2 {
+      margin: 0 0 16px 0;
+      font-size: 18px;
+      color: #333;
+    }
+    
+    .info {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    
+    .instructions {
+      background: #f8f9fa;
+      padding: 12px;
+      border-radius: 4px;
+      font-size: 13px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    
+    .instructions strong {
+      color: #000000;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #000000;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    
+    button:hover {
+      background: #1e1e1e;
+    }
+    
+    .export-section {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e0e0e0;
+    }
+    
+    .export-title {
+      font-weight: 600;
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>The New York Times Annotator</h2>
+  
+  <div class="info">
+    Highlight and annotate The New York Times articles with your personal notes.
+  </div>
+  
+  <div class="instructions">
+    <strong>How to use:</strong><br>
+    1. Select any text on an article<br>
+    2. Click "Add Note" button<br>
+    3. Type your note and save<br>
+    4. Click highlighted text to view/update notes
+  </div>
+  
+  <div class="export-section">
+    <div class="export-title">Export Annotations</div>
+    <button type="button" id="copyToClipboard">Copy to Clipboard</button>
+    <button type="button" id="exportText">Download as Text File</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

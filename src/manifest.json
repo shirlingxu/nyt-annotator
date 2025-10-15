@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "The New York Times Annotator",
+  "version": "1.0",
+  "description": "Highlight and annotate The New York Times articles",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://www.nytimes.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.nytimes.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

@@ -1,0 +1,153 @@
+/* Highlighted text */
+.nyt-annotation-highlight {
+  background-color: #ffeb3b;
+  cursor: pointer;
+  padding: 2px 0;
+  transition: background-color 0.2s;
+}
+
+.nyt-annotation-highlight:hover {
+  background-color: #ffd700;
+}
+
+/* Add annotation button */
+#nyt-anno-button {
+  background: #000000;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 10000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  white-space: nowrap;
+}
+
+#nyt-anno-button:hover {
+  background: #1e1e1e;
+}
+
+/* Note popup */
+#nyt-anno-popup {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  width: 280px;
+  z-index: 10000;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+}
+
+.nyt-anno-popup-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+#nyt-anno-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#nyt-anno-textarea:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.nyt-anno-popup-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  justify-content: flex-end;
+}
+
+.nyt-anno-popup-buttons button {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+#nyt-anno-save {
+  background: #000000;
+  color: white;
+}
+
+#nyt-anno-save:hover {
+  background: #1e1e1e;
+}
+
+#nyt-anno-cancel,
+#nyt-anno-close,
+.nyt-anno-btn-close {
+  background: #f1f3f4;
+  color: #333;
+}
+
+#nyt-anno-cancel:hover,
+#nyt-anno-close:hover,
+.nyt-anno-btn-close:hover {
+  background: #e1e3e4;
+}
+
+.nyt-anno-btn-edit {
+  background: #000000 !important;
+  color: white !important;
+}
+
+.nyt-anno-btn-edit:hover {
+  background: #1e1e1e !important;
+}
+
+.nyt-anno-btn-delete {
+  background: #000000 !important;
+  color: white !important;
+}
+
+.nyt-anno-btn-delete:hover {
+  background: #1e1e1e !important;
+}
+
+/* Note view */
+.nyt-anno-view-text {
+  background: #f8f9fa;
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-style: italic;
+  color: #555;
+  font-size: 12px;
+  line-height: 1.4;
+  max-height: 60px;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.nyt-anno-view-note {
+  padding: 6px 0;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 13px;
+  line-height: 1.4;
+  max-height: 100px;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.nyt-anno-view-time {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
