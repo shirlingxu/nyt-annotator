@@ -317,7 +317,7 @@ document.addEventListener('mouseup', (e) => {
 function showAnnotationButton(rect, text, range) {
   const button = document.createElement('div');
   button.id = 'nyt-anno-button';
-  button.textContent = '💬 Add Note';
+  button.textContent = 'Add Note';
   
   // Use fixed positioning for better reliability
   button.style.position = 'fixed';
