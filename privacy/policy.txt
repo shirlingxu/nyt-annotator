@@ -1,0 +1,26 @@
+Privacy Policy
+Last updated October 17, 2025
+
+Thank you for using The New York Times Annotator! This privacy policy describes how the extension handles information.
+
+1. Data Collection and Storage
+The New York Times Annotator extension collects and stores the following types of user-generated data:
+Annotation data: The specific text highlighted, the associated note written by the user, and the time the note was created.
+Contextual data: The URL of The New York Times article and the surrounding text context required to accurately restore the highlights.
+
+2. How Data is Stored and Used
+Local storage only: All data collected (annotations, quotes, notes, and URLs) is stored exclusively in your local browser storage using the Chrome Extension API (chrome.storage.local).
+No transmission: The extension doesn’t transmit, upload, or share any user-generated data (annotations or browsing history) to any external server, database, or third party.
+Functionality: Data is used only to power the core features of the extension such as displaying highlights on articles you revisit and enabling the export feature when requested by the user.
+
+3. Data Sharing and Disclosure
+The New York Times Annotator doesn’t share, sell, rent, or trade your personal or annotation data with anyone. Since the data never leaves your browser, there’s no disclosure to manage.
+
+4. Data Retention
+Your data is retained in your local browser storage indefinitely until one of the following occurs:
+You manually delete a specific annotation.
+You uninstall the extension from your browser.
+You manually clear your local storage data for this extension.
+
+5. Contact Information
+If you have any comments or questions about this privacy policy or the extension's data handling practices, please contact shirlingxu@gmail.com.
