@@ -6,8 +6,9 @@ Extension for Chrome to highlight and annotate The New York Times articles
 ## Install
 
 ### Chrome
-> Coming to the Chrome Web Store soon.
+> [Install for Chrome](https://chromewebstore.google.com/detail/the-new-york-times-annota/phfkbknbipkcooedbfhnldkjcilmlnlp)
 
+#### Manual Installation Instructions
 1. Go to ```chrome://extensions/```
 2. Toggle on "Developer Mode" in the top right corner
 3. Click on "Load unpacked" to upload the ```src``` folder
